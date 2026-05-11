@@ -1,0 +1,67 @@
+{
+  "@context": [
+    "https://schema.org",
+    {
+      "byten": "https://byten.com.br/ontology/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prov": "http://www.w3.org/ns/prov#",
+      "sec": "https://w3id.org/security#",
+      "proof": {
+        "@id": "sec:proof",
+        "@type": "@id"
+      },
+      "verificationMethod": {
+        "@id": "sec:verificationMethod",
+        "@type": "@id"
+      },
+      "proofPurpose": {
+        "@id": "sec:proofPurpose",
+        "@type": "@id"
+      }
+    }
+  ],
+  "@id": "https://byten.com.br/ontology/hash-criptografico",
+  "@type": [
+    "DefinedTerm",
+    "skos:Concept"
+  ],
+  "termCode": "BYTEN:GEO-0897",
+  "name": "Hash Criptográfico",
+  "description": "Algoritmo matemático unidirecional aplicado a um conjunto de dados adquiridos para gerar uma assinatura digital única, operando como mecanismo de validação técnica para atestar a integridade inalterada da evidência.",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://byten.com.br/ontology/hash-criptografico.jsonld"
+  },
+  "sameAs": [
+    "https://byten.com.br/glossario-forense?search=hash-criptografico"
+  ],
+  "inDefinedTermSet": "https://byten.com.br/ontology/risk-taxonomy",
+  "skos:inScheme": {
+    "@id": "https://byten.com.br/ontology/risk-taxonomy"
+  },
+  "skos:topConceptOf": {
+    "@id": "https://byten.com.br/ontology/risk-taxonomy"
+  },
+  "prov:wasAttributedTo": {
+    "@id": "https://byten.com.br/#organization"
+  },
+  "citation": {
+    "@type": "Legislation",
+    "name": "ISO/IEC 27037:2012:2016",
+    "jurisdictionCovered": "BR",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Sistema Jurídico/Forense Brasileiro"
+    }
+  },
+  "potentialAction": [
+    {
+      "@type": "UseAction",
+      "name": "Validar Integridade Algorítmica da Cópia Forense",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://byten.com.br/tool/digital-signature-validator"
+      }
+    }
+  ]
+}

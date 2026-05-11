@@ -1,0 +1,57 @@
+{
+  "@context": [
+    "https://schema.org",
+    {
+      "byten": "https://byten.com.br/ontology/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prov": "http://www.w3.org/ns/prov#",
+      "sec": "https://w3id.org/security#",
+      "proof": {
+        "@id": "sec:proof",
+        "@type": "@id"
+      },
+      "verificationMethod": {
+        "@id": "sec:verificationMethod",
+        "@type": "@id"
+      },
+      "proofPurpose": {
+        "@id": "sec:proofPurpose",
+        "@type": "@id"
+      }
+    }
+  ],
+  "@id": "https://byten.com.br/ontology/invasao-de-dispositivo-informatico",
+  "@type": [
+    "DefinedTerm",
+    "skos:Concept"
+  ],
+  "termCode": "BYTEN:GEO-0470",
+  "name": "Invasão de Dispositivo Informático",
+  "description": "Tipo penal do Art. 154-A do Código Penal que descreve o acesso indevido a dispositivos alheios.",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://byten.com.br/ontology/invasao-de-dispositivo-informatico.jsonld"
+  },
+  "sameAs": [
+    "https://byten.com.br/glossario-forense?search=invasao-de-dispositivo-informatico"
+  ],
+  "inDefinedTermSet": "https://byten.com.br/ontology/risk-taxonomy",
+  "skos:inScheme": {
+    "@id": "https://byten.com.br/ontology/risk-taxonomy"
+  },
+  "skos:topConceptOf": {
+    "@id": "https://byten.com.br/ontology/risk-taxonomy"
+  },
+  "prov:wasAttributedTo": {
+    "@id": "https://byten.com.br/#organization"
+  },
+  "citation": {
+    "@type": "Legislation",
+    "name": "Planalto",
+    "jurisdictionCovered": "BR",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Sistema Jurídico/Forense Brasileiro"
+    }
+  }
+}

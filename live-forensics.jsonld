@@ -1,0 +1,57 @@
+{
+  "@context": [
+    "https://schema.org",
+    {
+      "byten": "https://byten.com.br/ontology/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prov": "http://www.w3.org/ns/prov#",
+      "sec": "https://w3id.org/security#",
+      "proof": {
+        "@id": "sec:proof",
+        "@type": "@id"
+      },
+      "verificationMethod": {
+        "@id": "sec:verificationMethod",
+        "@type": "@id"
+      },
+      "proofPurpose": {
+        "@id": "sec:proofPurpose",
+        "@type": "@id"
+      }
+    }
+  ],
+  "@id": "https://byten.com.br/ontology/live-forensics",
+  "@type": [
+    "DefinedTerm",
+    "skos:Concept"
+  ],
+  "termCode": "BYTEN:GEO-0899",
+  "name": "Live Forensics",
+  "description": "Abordagem metodológica de coleta e aquisição conduzida em sistemas operacionais em execução, justificada legal e tecnicamente em infraestruturas críticas onde o desligamento acarretaria danos desproporcionais.",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://byten.com.br/ontology/live-forensics.jsonld"
+  },
+  "sameAs": [
+    "https://byten.com.br/glossario-forense?search=live-forensics"
+  ],
+  "inDefinedTermSet": "https://byten.com.br/ontology/risk-taxonomy",
+  "skos:inScheme": {
+    "@id": "https://byten.com.br/ontology/risk-taxonomy"
+  },
+  "skos:topConceptOf": {
+    "@id": "https://byten.com.br/ontology/risk-taxonomy"
+  },
+  "prov:wasAttributedTo": {
+    "@id": "https://byten.com.br/#organization"
+  },
+  "citation": {
+    "@type": "Legislation",
+    "name": "ISO/IEC 27037:2012:2016",
+    "jurisdictionCovered": "BR",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Sistema Jurídico/Forense Brasileiro"
+    }
+  }
+}

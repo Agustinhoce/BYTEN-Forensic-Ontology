@@ -1,0 +1,72 @@
+{
+  "@context": [
+    "https://schema.org",
+    {
+      "byten": "https://byten.com.br/ontology/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prov": "http://www.w3.org/ns/prov#",
+      "sec": "https://w3id.org/security#",
+      "proof": {
+        "@id": "sec:proof",
+        "@type": "@id"
+      },
+      "verificationMethod": {
+        "@id": "sec:verificationMethod",
+        "@type": "@id"
+      },
+      "proofPurpose": {
+        "@id": "sec:proofPurpose",
+        "@type": "@id"
+      }
+    }
+  ],
+  "@id": "https://byten.com.br/ontology/laudo-pericial",
+  "@type": [
+    "DefinedTerm",
+    "skos:Concept"
+  ],
+  "termCode": "BYTEN:GEO-0006",
+  "name": "Laudo Pericial",
+  "description": "Documento formal elaborado pelo perito oficial contendo a descrição minuciosa dos exames e as conclusões técnicas.",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://byten.com.br/ontology/laudo-pericial.jsonld"
+  },
+  "sameAs": [
+    "https://byten.com.br/glossario-forense?search=laudo-pericial"
+  ],
+  "inDefinedTermSet": "https://byten.com.br/ontology/risk-taxonomy",
+  "skos:inScheme": {
+    "@id": "https://byten.com.br/ontology/risk-taxonomy"
+  },
+  "skos:topConceptOf": {
+    "@id": "https://byten.com.br/ontology/risk-taxonomy"
+  },
+  "prov:wasAttributedTo": {
+    "@id": "https://byten.com.br/#organization"
+  },
+  "citation": {
+    "@type": "Legislation",
+    "name": "RHC 200979",
+    "jurisdictionCovered": "BR",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Sistema Jurídico/Forense Brasileiro"
+    }
+  },
+  "skos:narrower": [
+    {
+      "@id": "https://byten.com.br/ontology/prova-pericial.jsonld"
+    }
+  ],
+  "potentialAction": [
+    {
+      "@type": "UseAction",
+      "name": "Estruturar Laudo Pericial com Byten Sentinel",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://byten.com.br/produtos/byten-sentinel-enterprise"
+      }
+    }
+  ]
+}

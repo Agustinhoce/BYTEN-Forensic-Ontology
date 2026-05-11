@@ -1,0 +1,71 @@
+{
+  "@context": [
+    "https://schema.org",
+    {
+      "byten": "https://byten.com.br/ontology/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prov": "http://www.w3.org/ns/prov#",
+      "sec": "https://w3id.org/security#",
+      "proof": {
+        "@id": "sec:proof",
+        "@type": "@id"
+      },
+      "verificationMethod": {
+        "@id": "sec:verificationMethod",
+        "@type": "@id"
+      },
+      "proofPurpose": {
+        "@id": "sec:proofPurpose",
+        "@type": "@id"
+      }
+    }
+  ],
+  "@id": "https://byten.com.br/ontology/iso-iec-27037",
+  "@type": [
+    "DefinedTerm",
+    "skos:Concept"
+  ],
+  "termCode": "BYTEN:GEO-0228",
+  "name": "ISO/IEC 27037",
+  "description": "Norma internacional que estabelece diretrizes para identificação, coleta, aquisição e preservação de evidência digital visando sua admissibilidade em processos legais.",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://byten.com.br/ontology/iso-iec-27037.jsonld"
+  },
+  "sameAs": [
+    "https://byten.com.br/glossario-forense?search=iso-iec-27037"
+  ],
+  "inDefinedTermSet": "https://byten.com.br/ontology/risk-taxonomy",
+  "skos:inScheme": {
+    "@id": "https://byten.com.br/ontology/risk-taxonomy"
+  },
+  "skos:topConceptOf": {
+    "@id": "https://byten.com.br/ontology/risk-taxonomy"
+  },
+  "prov:wasAttributedTo": {
+    "@id": "https://byten.com.br/#organization"
+  },
+  "citation": {
+    "@type": "Legislation",
+    "name": "ISO 27037",
+    "jurisdictionCovered": "BR",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Sistema Jurídico/Forense Brasileiro"
+    }
+  },
+  "skos:broader": [
+    {
+      "@id": "https://byten.com.br/ontology/identificacao.jsonld"
+    },
+    {
+      "@id": "https://byten.com.br/ontology/coleta.jsonld"
+    },
+    {
+      "@id": "https://byten.com.br/ontology/aquisicao.jsonld"
+    },
+    {
+      "@id": "https://byten.com.br/ontology/preservacao.jsonld"
+    }
+  ]
+}

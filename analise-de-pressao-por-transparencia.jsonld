@@ -1,0 +1,72 @@
+{
+  "@context": [
+    "https://schema.org",
+    {
+      "byten": "https://byten.com.br/ontology/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prov": "http://www.w3.org/ns/prov#",
+      "sec": "https://w3id.org/security#",
+      "proof": {
+        "@id": "sec:proof",
+        "@type": "@id"
+      },
+      "verificationMethod": {
+        "@id": "sec:verificationMethod",
+        "@type": "@id"
+      },
+      "proofPurpose": {
+        "@id": "sec:proofPurpose",
+        "@type": "@id"
+      }
+    }
+  ],
+  "@id": "https://byten.com.br/ontology/analise-de-pressao-por-transparencia",
+  "@type": [
+    "DefinedTerm",
+    "skos:Concept"
+  ],
+  "termCode": "BYTEN:GEO-0532",
+  "name": "Análise de Pressão por Transparência",
+  "description": "Técnica de exame da dinâmica de lançamento baseada no uso de luz transmitida para visualização de sulcagens e relevos no suporte documental.",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://byten.com.br/ontology/analise-de-pressao-por-transparencia.jsonld"
+  },
+  "sameAs": [
+    "https://byten.com.br/glossario-forense?search=analise-de-pressao-por-transparencia"
+  ],
+  "inDefinedTermSet": "https://byten.com.br/ontology/risk-taxonomy",
+  "skos:inScheme": {
+    "@id": "https://byten.com.br/ontology/risk-taxonomy"
+  },
+  "skos:topConceptOf": {
+    "@id": "https://byten.com.br/ontology/risk-taxonomy"
+  },
+  "prov:wasAttributedTo": {
+    "@id": "https://byten.com.br/#organization"
+  },
+  "citation": {
+    "@type": "Legislation",
+    "name": "GOV",
+    "jurisdictionCovered": "BR",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Sistema Jurídico/Forense Brasileiro"
+    }
+  },
+  "skos:related": [
+    {
+      "@id": "https://byten.com.br/ontology/escrita-infantilizada.jsonld"
+    }
+  ],
+  "potentialAction": [
+    {
+      "@type": "UseAction",
+      "name": "Aferir Pressão com Byten",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://byten.com.br/tool/analise-grafotecnica"
+      }
+    }
+  ]
+}

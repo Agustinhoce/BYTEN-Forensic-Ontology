@@ -1,0 +1,80 @@
+{
+  "@context": [
+    "https://schema.org",
+    {
+      "byten": "https://byten.com.br/ontology/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prov": "http://www.w3.org/ns/prov#",
+      "sec": "https://w3id.org/security#",
+      "proof": {
+        "@id": "sec:proof",
+        "@type": "@id"
+      },
+      "verificationMethod": {
+        "@id": "sec:verificationMethod",
+        "@type": "@id"
+      },
+      "proofPurpose": {
+        "@id": "sec:proofPurpose",
+        "@type": "@id"
+      }
+    }
+  ],
+  "@id": "https://byten.com.br/ontology/cadeia-de-custodia-digital",
+  "@type": [
+    "DefinedTerm",
+    "skos:Concept"
+  ],
+  "termCode": "BYTEN:GEO-0011",
+  "name": "Cadeia de Custódia Digital",
+  "description": "Conjunto de procedimentos utilizados para manter e documentar o histórico cronológico de evidências digitais, garantindo sua integridade e admissibilidade jurídica.",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://byten.com.br/ontology/cadeia-de-custodia-digital.jsonld"
+  },
+  "sameAs": [
+    "https://byten.com.br/glossario-forense?search=cadeia-de-custodia-digital"
+  ],
+  "inDefinedTermSet": "https://byten.com.br/ontology/risk-taxonomy",
+  "skos:inScheme": {
+    "@id": "https://byten.com.br/ontology/risk-taxonomy"
+  },
+  "skos:topConceptOf": {
+    "@id": "https://byten.com.br/ontology/risk-taxonomy"
+  },
+  "prov:wasAttributedTo": {
+    "@id": "https://byten.com.br/#organization"
+  },
+  "citation": {
+    "@type": "Legislation",
+    "name": "NIST",
+    "jurisdictionCovered": "BR",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Sistema Jurídico/Forense Brasileiro"
+    }
+  },
+  "skos:broader": [
+    {
+      "@id": "https://byten.com.br/ontology/vestigio-digital.jsonld"
+    }
+  ],
+  "skos:related": [
+    {
+      "@id": "https://byten.com.br/ontology/principio-da-mesmidade.jsonld"
+    },
+    {
+      "@id": "https://byten.com.br/ontology/monitoramento-continuo-de-seguranca-da-informacao-iscm.jsonld"
+    }
+  ],
+  "potentialAction": [
+    {
+      "@type": "UseAction",
+      "name": "Preservar com BYTEN SENTINEL ENTERPRISE",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://byten.com.br/produtos/byten-sentinel-enterprise"
+      }
+    }
+  ]
+}

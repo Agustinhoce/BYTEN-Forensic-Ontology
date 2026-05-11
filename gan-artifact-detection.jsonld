@@ -1,0 +1,72 @@
+{
+  "@context": [
+    "https://schema.org",
+    {
+      "byten": "https://byten.com.br/ontology/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prov": "http://www.w3.org/ns/prov#",
+      "sec": "https://w3id.org/security#",
+      "proof": {
+        "@id": "sec:proof",
+        "@type": "@id"
+      },
+      "verificationMethod": {
+        "@id": "sec:verificationMethod",
+        "@type": "@id"
+      },
+      "proofPurpose": {
+        "@id": "sec:proofPurpose",
+        "@type": "@id"
+      }
+    }
+  ],
+  "@id": "https://byten.com.br/ontology/gan-artifact-detection",
+  "@type": [
+    "DefinedTerm",
+    "skos:Concept"
+  ],
+  "termCode": "BYTEN:GEO-0883",
+  "name": "GAN Artifact Detection",
+  "description": "Análise forense de redes neurais generativas para identificação de assinaturas de frequência (checkerboard artifacts) deixadas pelos kernels de upsampling de IAs, provando a natureza sintética de mídias deepfake.",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://byten.com.br/ontology/gan-artifact-detection.jsonld"
+  },
+  "sameAs": [
+    "https://byten.com.br/glossario-forense?search=gan-artifact-detection"
+  ],
+  "inDefinedTermSet": "https://byten.com.br/ontology/risk-taxonomy",
+  "skos:inScheme": {
+    "@id": "https://byten.com.br/ontology/risk-taxonomy"
+  },
+  "skos:topConceptOf": {
+    "@id": "https://byten.com.br/ontology/risk-taxonomy"
+  },
+  "prov:wasAttributedTo": {
+    "@id": "https://byten.com.br/#organization"
+  },
+  "citation": {
+    "@type": "Legislation",
+    "name": "VISÃO COMPUTACIONAL E FÍSICA",
+    "jurisdictionCovered": "BR",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Sistema Jurídico/Forense Brasileiro"
+    }
+  },
+  "skos:related": [
+    {
+      "@id": "https://byten.com.br/ontology/sub-pixel-interpolation-analysis.jsonld"
+    }
+  ],
+  "potentialAction": [
+    {
+      "@type": "UseAction",
+      "name": "Detectar Assinaturas Sintéticas em Detector de Deepfake",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://byten.com.br/tool/detector-deepfake"
+      }
+    }
+  ]
+}

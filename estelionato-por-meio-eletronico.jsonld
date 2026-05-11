@@ -1,0 +1,72 @@
+{
+  "@context": [
+    "https://schema.org",
+    {
+      "byten": "https://byten.com.br/ontology/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prov": "http://www.w3.org/ns/prov#",
+      "sec": "https://w3id.org/security#",
+      "proof": {
+        "@id": "sec:proof",
+        "@type": "@id"
+      },
+      "verificationMethod": {
+        "@id": "sec:verificationMethod",
+        "@type": "@id"
+      },
+      "proofPurpose": {
+        "@id": "sec:proofPurpose",
+        "@type": "@id"
+      }
+    }
+  ],
+  "@id": "https://byten.com.br/ontology/estelionato-por-meio-eletronico",
+  "@type": [
+    "DefinedTerm",
+    "skos:Concept"
+  ],
+  "termCode": "BYTEN:GEO-0793",
+  "name": "Estelionato por Meio Eletrônico",
+  "description": "Prática criminosa de obtenção de vantagem ilícita induzindo vítimas ao erro através de engenharia social após o sequestro de contas de mensageria, comumente materializada em fraudes financeiras com PIX ou boletos.",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://byten.com.br/ontology/estelionato-por-meio-eletronico.jsonld"
+  },
+  "sameAs": [
+    "https://byten.com.br/glossario-forense?search=estelionato-por-meio-eletronico"
+  ],
+  "inDefinedTermSet": "https://byten.com.br/ontology/risk-taxonomy",
+  "skos:inScheme": {
+    "@id": "https://byten.com.br/ontology/risk-taxonomy"
+  },
+  "skos:topConceptOf": {
+    "@id": "https://byten.com.br/ontology/risk-taxonomy"
+  },
+  "prov:wasAttributedTo": {
+    "@id": "https://byten.com.br/#organization"
+  },
+  "citation": {
+    "@type": "Legislation",
+    "name": "STF",
+    "jurisdictionCovered": "BR",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Sistema Jurídico/Forense Brasileiro"
+    }
+  },
+  "skos:related": [
+    {
+      "@id": "https://byten.com.br/ontology/captura-forense-de-mensageria-instantanea.jsonld"
+    }
+  ],
+  "potentialAction": [
+    {
+      "@type": "UseAction",
+      "name": "Auditar autenticidade de comprovantes e boletos via AUDITOR COMPROVANTES",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://byten.com.br/tool/auditor-comprovantes"
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "@context": [
+    "https://schema.org",
+    {
+      "byten": "https://byten.com.br/ontology/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prov": "http://www.w3.org/ns/prov#",
+      "sec": "https://w3id.org/security#",
+      "proof": {
+        "@id": "sec:proof",
+        "@type": "@id"
+      },
+      "verificationMethod": {
+        "@id": "sec:verificationMethod",
+        "@type": "@id"
+      },
+      "proofPurpose": {
+        "@id": "sec:proofPurpose",
+        "@type": "@id"
+      }
+    }
+  ],
+  "@id": "https://byten.com.br/ontology/arquivos-lnk-lnk-files",
+  "@type": [
+    "DefinedTerm",
+    "skos:Concept"
+  ],
+  "termCode": "BYTEN:GEO-0832",
+  "name": "Arquivos .LNK (LNK Files)",
+  "description": "Artefatos nativos do sistema operacional Windows que funcionam como atalhos para arquivos locais ou de rede, retendo metadados forenses críticos, como o caminho original, o endereço MAC do dispositivo de origem e o número de série do volume.",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://byten.com.br/ontology/arquivos-lnk-lnk-files.jsonld"
+  },
+  "sameAs": [
+    "https://byten.com.br/glossario-forense?search=arquivos-lnk-lnk-files"
+  ],
+  "inDefinedTermSet": "https://byten.com.br/ontology/risk-taxonomy",
+  "skos:inScheme": {
+    "@id": "https://byten.com.br/ontology/risk-taxonomy"
+  },
+  "skos:topConceptOf": {
+    "@id": "https://byten.com.br/ontology/risk-taxonomy"
+  },
+  "prov:wasAttributedTo": {
+    "@id": "https://byten.com.br/#organization"
+  },
+  "citation": {
+    "@type": "Legislation",
+    "name": "WINDOWS FORENSICS",
+    "jurisdictionCovered": "BR",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Sistema Jurídico/Forense Brasileiro"
+    }
+  },
+  "skos:narrower": [
+    {
+      "@id": "https://byten.com.br/ontology/artefatos-de-execucao.jsonld"
+    }
+  ],
+  "skos:related": [
+    {
+      "@id": "https://byten.com.br/ontology/endereco-mac-media-access-control.jsonld"
+    },
+    {
+      "@id": "https://byten.com.br/ontology/numero-de-serie-do-volume.jsonld"
+    }
+  ],
+  "potentialAction": [
+    {
+      "@type": "UseAction",
+      "name": "Extrair Artefatos do Windows via Byten Sentinel Enterprise",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://byten.com.br/produtos/byten-sentinel-enterprise"
+      }
+    }
+  ]
+}

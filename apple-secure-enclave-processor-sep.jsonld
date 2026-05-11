@@ -1,0 +1,72 @@
+{
+  "@context": [
+    "https://schema.org",
+    {
+      "byten": "https://byten.com.br/ontology/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prov": "http://www.w3.org/ns/prov#",
+      "sec": "https://w3id.org/security#",
+      "proof": {
+        "@id": "sec:proof",
+        "@type": "@id"
+      },
+      "verificationMethod": {
+        "@id": "sec:verificationMethod",
+        "@type": "@id"
+      },
+      "proofPurpose": {
+        "@id": "sec:proofPurpose",
+        "@type": "@id"
+      }
+    }
+  ],
+  "@id": "https://byten.com.br/ontology/apple-secure-enclave-processor-sep",
+  "@type": [
+    "DefinedTerm",
+    "skos:Concept"
+  ],
+  "termCode": "BYTEN:GEO-0879",
+  "name": "Apple Secure Enclave Processor (SEP)",
+  "description": "Coprocessador isolado do processador principal (SoC) em dispositivos iOS/macOS que gerencia dados biométricos e chaves criptográficas de hardware (UID/GID), impedindo que a extração do sistema de arquivos acesse chaves de criptografia em repouso mesmo com acesso root.",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://byten.com.br/ontology/apple-secure-enclave-processor-sep.jsonld"
+  },
+  "sameAs": [
+    "https://byten.com.br/glossario-forense?search=apple-secure-enclave-processor-sep"
+  ],
+  "inDefinedTermSet": "https://byten.com.br/ontology/risk-taxonomy",
+  "skos:inScheme": {
+    "@id": "https://byten.com.br/ontology/risk-taxonomy"
+  },
+  "skos:topConceptOf": {
+    "@id": "https://byten.com.br/ontology/risk-taxonomy"
+  },
+  "prov:wasAttributedTo": {
+    "@id": "https://byten.com.br/#organization"
+  },
+  "citation": {
+    "@type": "Legislation",
+    "name": "HARDWARE FORENSICS",
+    "jurisdictionCovered": "BR",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Sistema Jurídico/Forense Brasileiro"
+    }
+  },
+  "skos:broader": [
+    {
+      "@id": "https://byten.com.br/ontology/uid-unique-id-de-silicio.jsonld"
+    }
+  ],
+  "potentialAction": [
+    {
+      "@type": "UseAction",
+      "name": "Analisar Blindagem de Hardware com Byten Sentinel Enterprise",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://byten.com.br/produtos/byten-sentinel-enterprise"
+      }
+    }
+  ]
+}
