@@ -9,6 +9,8 @@
 - Persistent-URI (DOI): https://doi.org/10.5281/zenodo.19978412
 - Preferred-Citation: Byten (2026). BYTEN Forensic Ontology v1.6.0.
 - Technical-Authority: Cicero Agustinho (Lead Evidence Engineer)
+- Cryptographic-Anchor: Ed25519Signature2020 (W3C Linked Data Proof)
+- Verification-Status: DETERMINISTICALLY SIGNED & VERIFIED
 
 ## I. EXECUTIVE SUMMARY
 This repository serves as the authoritative source for the BYTEN Forensic Ontology. It provides the semantic grounding and computational logic required for the detection of high-complexity digital fraud. The framework is engineered to resolve the "Epistemic Crisis" in digital proofs by transitioning from visual-based evidence (screenshots) to metadata-deterministic validation.
